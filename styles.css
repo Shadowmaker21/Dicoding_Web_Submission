@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+.flex-container-column {
+   display: flex;
+   flex-direction: column;
+ 
+   /* properti pendukung*/
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.flex-container-row {
+   display: flex;
+}
+
+header {
+   display: inline;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 10px;
+   overflow: auto;
+   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/dunn-edwards-2019-trending-colors-soft-lilac-pastel-purple-de5974-solid-color-melissa-fague.jpg);
+   background-repeat: repeat;
+}
+
+h1 {
+   font-size: 3em;
+   font-style: oblique;
+}
+ 
+h2, h3 {
+   color: #a9d5df;
+   list-style-type: none;
+}
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: thistle;
+   text-align: center;
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: "Dicoding Font";
+   src: url('FILE-FONT.TTF');
+}
+
+p {
+   text-align: center;
+   text-anchor: middle;
+   color: black;
+   line-height: 2;
+   line-height: 200%;
+   line-height: 1.5em;
+
+}
+
+p1 {
+   text-align: center;
+   color: white;
+}
+
+nav {
+   background-color: thistle;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   text-align-last: center;
+}
+
+nav a:hover {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.featured-image {
+   width: fit-content;
+   max-height: fit-content;
+   object-fit: fit-content;
+   object-position: fit-content;
+
+}
+
+.profile img {
+   width: cover;
+}
+
+.container {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 5px;
+   background-image: url(https://p4.wallpaperbetter.com/wallpaper/500/483/798/pastel-purple-background-wallpaper-preview.jpg);
+   background-repeat: repeat;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-image: url('https://i1.wp.com/blog.visitalexandriava.com/wp-content/uploads/2018/11/Mia_s_Italian_Kitchen_CREDIT_Korean_Husband_Hong_Kong_Wife__3_-2100x1181-cd239592-259e-415e-8718-80ae67972d70.jpg?resize=1200%2C675&ssl=1');
+   background-size: cover;
+   height: 100%;
+   text-align: center;
+   color: white;
+}
+
+.box_tiga{
+   width: 100%;
+   height: 250px;
+   border-radius: 5px;
+}
+.find_me{
+   width: 50px;
+   height: 50px;
+   margin: 0 auto;
+   padding: 1px;
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+.find_me p{
+   padding: 12px;
+   border-radius: 1px 5px;
+   box-shadow: 2px 2px 7px 2px grey;
+}
+
+.find_me img {
+   margin: 5px;
+   widows: 30px;
+   height:30px;
+}
+
+.find_me ul li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+#content {
+   float: left;
+   width: 60%;
+}
+
+aside {
+   float: right;
+   width: 40%;
+   padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
